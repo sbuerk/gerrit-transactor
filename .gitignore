@@ -1,0 +1,35 @@
+### IDE's and editors
+.idea/
+
+### Managed by Composer
+/bin/*
+!bin/console
+!bin/symfony_requirements
+/vendor/
+
+## build, tmp, logs and caches
+/Build/testing-docker/.env
+.cache/
+
+### SYMFONY related
+.env.local
+/.env.*.local
+/public/bundles/
+/public/.htaccess
+/var/
+
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php-cs-fixer.php
+/.php-cs-fixer.cache
+###< friendsofphp/php-cs-fixer ###
